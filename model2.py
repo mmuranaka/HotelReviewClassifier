@@ -1,3 +1,8 @@
+"""
+This model classifies the hotel reviews between positive and negative:
+    positive (3-5 rating)
+    negative (1-2 rating)
+"""
 import mpmath as mp
 import nltk
 # mpmath
@@ -118,8 +123,6 @@ class Classifier:
         except KeyError:
             occurances = 1
         totalWords = self.labels[label][1] + len(self.vocab)
-        # print(word)
-        # print(occurances/totalWords)
         return occurances/totalWords
 
 # takes a cluase and returns it's probable label
