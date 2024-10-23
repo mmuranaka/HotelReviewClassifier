@@ -32,13 +32,21 @@ Further, the program allows for certain features of the program to be enabled/di
 
 ## 3. Usage
 
-The program can be executed with the line:    *python classifier.py TRAIN_SIZE*
-    classifier.py is the name of the program which processes the dataset and builds the model
-    TRAIN_SIZE is the user specified training size
-        percentage between 20 and 80 specifying the percent of the dataset to be considered for training
-        if the input does not meet these needs, the default training size will be used (80)
-Following this input and the running of the program you will receive "Enter your sentence:"
-    At this point you can input a sentence of your choosing
-The program classifies your sentence and asks "Do you want to enter another sentence Y/N?"
-    Answering with Y will allow the user to input another sentence
-    Answering with N will end the program
+The program can be executed with the line:  
+`python classifier.py TRAIN_SIZE`
+
+- `classifier.py` is the name of the program which processes the dataset and builds the model.
+- `TRAIN_SIZE` is the user-specified training size:
+    - A percentage between 20 and 80 specifying the percent of the dataset to be considered for training.
+    - If the input does not meet these requirements, the default training size (80%) will be used.
+
+Following this input and the running of the program, you will receive:  
+`Enter your sentence:`
+
+- At this point, you can input a sentence of your choosing.
+- The program classifies your sentence and asks:  
+  `Do you want to enter another sentence Y/N?`
+
+    - Answering with `Y` will allow the user to input another sentence.
+    - Answering with `N` will end the program.
+
